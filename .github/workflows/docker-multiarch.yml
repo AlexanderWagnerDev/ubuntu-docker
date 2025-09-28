@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             alexanderwagnerdev/ubuntu:latest
-            ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
+            ghcr.io/alexanderwagnerdev/ubuntu:latest
