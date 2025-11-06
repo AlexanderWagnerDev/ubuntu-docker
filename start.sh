@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cron
+cron &
 
 exec /bin/bash
