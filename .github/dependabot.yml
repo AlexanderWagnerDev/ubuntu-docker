@@ -30,3 +30,23 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "autoupdate"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" 
+    target-branch: "24.04"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "24.04"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily" 
+    target-branch: "26.04"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "26.04"
