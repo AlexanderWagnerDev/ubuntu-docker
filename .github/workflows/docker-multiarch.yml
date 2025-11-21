@@ -39,5 +39,7 @@ jobs:
           platforms: linux/amd64,linux/arm64/v8,linux/riscv64,linux/s390x,linux/arm/v7,linux/ppc64le
           push: true
           tags: |
-            alexanderwagnerdev/ubuntu:latest
-            ghcr.io/alexanderwagnerdev/ubuntu:latest
+            alexanderwagnerdev/ubuntu:24.04
+            alexanderwagnerdev/ubuntu:noble
+            ghcr.io/alexanderwagnerdev/ubuntu:24.04
+            ghcr.io/alexanderwagnerdev/ubuntu:noble
