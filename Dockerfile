@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-RUN sed -i 's|http://|https://|g' /etc/apt/sources.list.d/ubuntu.sources
+RUN sed -i 's|URIs: [^/]*ubuntu/|URIs: https://mirror.awdev.space/ubuntu/|g' /etc/apt/sources.list.d/ubuntu.sources
 
 COPY /etc/apt/apt.conf.d/20auto-upgrades /etc/apt/apt.conf.d/20auto-upgrades
 COPY /etc/apt/apt.conf.d/50unattended-upgrades /etc/apt/apt.conf.d/50unattended-upgrades
