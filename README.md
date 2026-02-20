@@ -70,7 +70,7 @@ If you prefer to build the Docker image yourself:
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the GPL 3.0 License.
 
 ---
 
@@ -142,4 +142,4 @@ Falls du das Docker-Image selbst erstellen möchtest:
 
 ## 📄 Lizenz
 
-Dieses Projekt ist Open Source und unter der MIT-Lizenz verfügbar.
+Dieses Projekt ist Open Source und unter der GPL 3.0-Lizenz verfügbar.
