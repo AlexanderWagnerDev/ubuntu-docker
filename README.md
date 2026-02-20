@@ -1,20 +1,28 @@
 # 🐳 Ubuntu Docker
 
+[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/ubuntu-docker?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
 [![Docker](https://img.shields.io/badge/Docker-Ubuntu-E95420?style=flat-square&logo=ubuntu)](https://www.docker.com/)
 [![GitHub](https://img.shields.io/github/license/AlexanderWagnerDev/ubuntu-docker?style=flat-square)](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
-Production-ready Ubuntu Docker image with custom mirror configuration, CA certificates, and automatic security updates.
+Production-ready Ubuntu Docker image with custom mirror configuration, CA certificates, and security updates.
 
 ---
 
 ## 🚀 Quick Start
 
+### Docker Hub
+```bash
+docker pull alexanderwagnerdev/ubuntu-docker:latest
+```
+
+### GitHub Container Registry
 ```bash
 docker pull ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
 ```
 
+### Run
 ```bash
-docker run -it ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
+docker run -it alexanderwagnerdev/ubuntu-docker:latest
 ```
 
 ## ✨ Features
@@ -54,9 +62,11 @@ If you prefer to build the Docker image yourself:
 - Custom APT mirror configuration
 - Cleaned package cache for optimal size
 
-## 🐳 GitHub Container Registry
+## 🔗 Links
 
-Pre-built images are available on GitHub Container Registry: [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
+- **Docker Hub:** [alexanderwagnerdev/ubuntu-docker](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
+- **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
+- **GitHub Repository:** [AlexanderWagnerDev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
 ## 📄 License
 
@@ -66,18 +76,25 @@ This project is open source and available under the MIT License.
 
 # 🐳 Ubuntu Docker (Deutsch)
 
-Produktionsbereites Ubuntu Docker-Image mit eigener Mirror-Konfiguration, CA-Zertifikaten und automatischen Sicherheitsupdates.
+Produktionsbereites Ubuntu Docker-Image mit eigener Mirror-Konfiguration, CA-Zertifikaten und Sicherheitsupdates.
 
 ---
 
 ## 🚀 Schnellstart
 
+### Docker Hub
+```bash
+docker pull alexanderwagnerdev/ubuntu-docker:latest
+```
+
+### GitHub Container Registry
 ```bash
 docker pull ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
 ```
 
+### Ausführen
 ```bash
-docker run -it ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
+docker run -it alexanderwagnerdev/ubuntu-docker:latest
 ```
 
 ## ✨ Features
@@ -117,9 +134,11 @@ Falls du das Docker-Image selbst erstellen möchtest:
 - Eigene APT-Mirror-Konfiguration
 - Bereinigter Paket-Cache für optimale Größe
 
-## 🐳 GitHub Container Registry
+## 🔗 Links
 
-Fertige Images sind auf der GitHub Container Registry verfügbar: [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
+- **Docker Hub:** [alexanderwagnerdev/ubuntu-docker](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
+- **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
+- **GitHub Repository:** [AlexanderWagnerDev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
 ## 📄 Lizenz
 
