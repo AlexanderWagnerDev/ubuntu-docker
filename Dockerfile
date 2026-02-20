@@ -18,7 +18,7 @@ COPY /etc/apt/apt.conf.d/50unattended-upgrades /etc/apt/apt.conf.d/50unattended-
 RUN echo "0 * * * * root /usr/bin/unattended-upgrade" > /etc/cron.d/unattended-upgrade
 RUN chmod 0644 /etc/cron.d/unattended-upgrade && chmod 0664 /etc/apt/apt.conf.d/20auto-upgrades
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
+COPY start.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-CMD ["/start.sh"]
+CMD ["/entrypoint.sh"]
