@@ -1,6 +1,6 @@
 # 🐳 Ubuntu Docker
 
-[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/ubuntu-docker?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
+[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/ubuntu?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/ubuntu)
 [![Docker](https://img.shields.io/badge/Docker-Ubuntu-E95420?style=flat-square&logo=ubuntu)](https://www.docker.com/)
 [![GitHub](https://img.shields.io/github/license/AlexanderWagnerDev/ubuntu-docker?style=flat-square)](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
@@ -12,7 +12,7 @@ Production-ready Ubuntu Docker image with custom mirror configuration, CA certif
 
 ### Docker Hub
 ```bash
-docker pull alexanderwagnerdev/ubuntu-docker:latest
+docker pull alexanderwagnerdev/ubuntu:latest
 ```
 
 ### GitHub Container Registry
@@ -22,7 +22,7 @@ docker pull ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
 
 ### Run
 ```bash
-docker run -it alexanderwagnerdev/ubuntu-docker:latest
+docker run -it alexanderwagnerdev/ubuntu:latest
 ```
 
 ## ✨ Features
@@ -64,7 +64,7 @@ If you prefer to build the Docker image yourself:
 
 ## 🔗 Links
 
-- **Docker Hub:** [alexanderwagnerdev/ubuntu-docker](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
+- **Docker Hub:** [alexanderwagnerdev/ubuntu](https://hub.docker.com/r/alexanderwagnerdev/ubuntu)
 - **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
 - **GitHub Repository:** [AlexanderWagnerDev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
@@ -84,7 +84,7 @@ Produktionsbereites Ubuntu Docker-Image mit eigener Mirror-Konfiguration, CA-Zer
 
 ### Docker Hub
 ```bash
-docker pull alexanderwagnerdev/ubuntu-docker:latest
+docker pull alexanderwagnerdev/ubuntu:latest
 ```
 
 ### GitHub Container Registry
@@ -94,7 +94,7 @@ docker pull ghcr.io/alexanderwagnerdev/ubuntu-docker:latest
 
 ### Ausführen
 ```bash
-docker run -it alexanderwagnerdev/ubuntu-docker:latest
+docker run -it alexanderwagnerdev/ubuntu:latest
 ```
 
 ## ✨ Features
@@ -136,7 +136,7 @@ Falls du das Docker-Image selbst erstellen möchtest:
 
 ## 🔗 Links
 
-- **Docker Hub:** [alexanderwagnerdev/ubuntu-docker](https://hub.docker.com/r/alexanderwagnerdev/ubuntu-docker)
+- **Docker Hub:** [alexanderwagnerdev/ubuntu](https://hub.docker.com/r/alexanderwagnerdev/ubuntu)
 - **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker/pkgs/container/ubuntu-docker)
 - **GitHub Repository:** [AlexanderWagnerDev/ubuntu-docker](https://github.com/AlexanderWagnerDev/ubuntu-docker)
 
