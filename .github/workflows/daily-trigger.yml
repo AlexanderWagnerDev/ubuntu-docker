@@ -1,0 +1,33 @@
+name: Daily Trigger All Branches
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    strategy:
+      matrix:
+        branch:
+          - 24.04
+          - 26.05
+          - autoupdate
+          - builder
+          - main
+      fail-fast: false
+    steps:
+      - name: Trigger docker-multiarch.yml on ${{ matrix.branch }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'docker-multiarch.yml',
+              ref: '${{ matrix.branch }}'
+            });
