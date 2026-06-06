@@ -14,7 +14,7 @@ jobs:
       matrix:
         branch:
           - 24.04
-          - 26.05
+          - 26.04
           - autoupdate
           - builder
           - main
